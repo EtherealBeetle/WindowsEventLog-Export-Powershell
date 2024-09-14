@@ -33,7 +33,7 @@
 
 ### Basic Usage
 
-```powershell
+powershell
 .\Export-WindowsEventLogs.ps1
 
 This will export the last 7 days of events to a CSV file on your desktop.
