@@ -33,14 +33,15 @@
 
 ### Basic Usage
 
-powershell
+```powershell
 .\Export-WindowsEventLogs.ps1
-
+```
 This will export the last 7 days of events to a CSV file on your desktop.
 
 ## Advanced Usage
+```powershell
 .\Export-WindowsEventLogs.ps1 -Path "C:\Logs" -DaysToSearch 14 -PassThru
-
+```
 This command will:
 
 Export logs from the last 14 days
@@ -57,9 +58,9 @@ The script generates a CSV file with a name format: EventLogs_YYYYMMDD_HHMMSS.cs
 
 ## ⚙️ Configuration Options
 The script accepts the following parameters:
--Path: Specifies the output directory for the CSV file (default: user's desktop):
--DaysToSearch: Number of past days to search for events (default: 7):
--PassThru: Outputs the processed events to the pipeline:
+1. Path: Specifies the output directory for the CSV file (default: user's desktop):
+2. DaysToSearch: Number of past days to search for events (default: 7):
+3. PassThru: Outputs the processed events to the pipeline:
 
 ## 🔍 Troubleshooting
 No events found
