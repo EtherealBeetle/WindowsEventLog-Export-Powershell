@@ -76,4 +76,7 @@ If you encounter "Access Denied" errors:
 
 1. Ensure you're running PowerShell as Administrator
 2. Check your system's execution policy with Get-ExecutionPolicy
-3. If necessary, set the execution policy to allow the script: Set-ExecutionPolicy RemoteSigned -Scope Process
+3. If necessary, set the execution policy to allow the script: 
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
