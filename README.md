@@ -70,10 +70,10 @@ Increase the -DaysToSearch parameter value
 Ensure you're running the script with Administrator privileges
 Check if the event logs are enabled on the system
 
-## Access Denied
+## ❌ Access Denied
 Access Denied
 If you encounter "Access Denied" errors:
 
-Ensure you're running PowerShell as Administrator
-Check your system's execution policy with Get-ExecutionPolicy
-If necessary, set the execution policy to allow the script: Set-ExecutionPolicy RemoteSigned -Scope Process
+1. Ensure you're running PowerShell as Administrator
+2. Check your system's execution policy with Get-ExecutionPolicy
+3. If necessary, set the execution policy to allow the script: Set-ExecutionPolicy RemoteSigned -Scope Process
