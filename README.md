@@ -57,10 +57,9 @@ The script generates a CSV file with a name format: EventLogs_YYYYMMDD_HHMMSS.cs
 
 ## ⚙️ Configuration Options
 The script accepts the following parameters:
-
--Path: Specifies the output directory for the CSV file (default: user's desktop)
--DaysToSearch: Number of past days to search for events (default: 7)
--PassThru: Outputs the processed events to the pipeline
+-Path: Specifies the output directory for the CSV file (default: user's desktop):
+-DaysToSearch: Number of past days to search for events (default: 7):
+-PassThru: Outputs the processed events to the pipeline:
 
 ## 🔍 Troubleshooting
 No events found
